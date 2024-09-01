@@ -1,3 +1,8 @@
+#!/usr/bin/env bash
+
+# ensures that the script is executed with the Bash shell, using the env command to locate Bash in the user's environment. 
+# This approach is portable and helps avoid issues if Bash is installed in different locations on different systems.
+
 # Define the path to the file that contains the battery status
 BATTERY_PATH="/sys/class/power_supply/BAT0/status"
 
