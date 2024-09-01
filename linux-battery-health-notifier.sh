@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 BATTERY_PATH="/sys/class/power_supply/BAT0/status"
 BATTERY_PERCENTAGE_PATH="/sys/class/power_supply/BAT0/capacity"
 
