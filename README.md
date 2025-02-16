@@ -16,7 +16,7 @@ Monitors battery status and sends notifications:
 - Linux with `notify-send`.
 - Access to `/sys/class/power_supply/BAT0/`.
 
-(Usually both prerequisite above are already met by default.)
+(Usually both prerequisites above are already met by default.)
 
 **Setup:**
 
